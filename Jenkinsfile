@@ -5,11 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh '''
-                ls -l
-                pwd
-                echo "Hello from gibhub push webhook"
-                '''
             }
         }
         stage('Test') {
